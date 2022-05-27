@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Cal from "../../img/Cal_mobile.jpeg";
 import Todolist from "../../img/todolist.jpg";
+import Chathura from "../../img/mysite.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -51,8 +52,8 @@ const Portfolio = () => {
           <p><a href="#" target="_blank" >Apartment Resource Management System</a> <br/> Web Application</p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={""} alt="" />
-          <p><a href="#" target="_blank" >Myportfolio - Chathura</a> <br/> Web Application</p>
+          <img src={Chathura} alt="" />
+          <p><a href="https://chathura-itsme.herokuapp.com/" target="_blank" >Myportfolio - Chathura</a> <br/> Web Application</p>
         </SwiperSlide>
       </Swiper>
     </div>
