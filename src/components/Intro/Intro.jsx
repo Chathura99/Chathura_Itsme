@@ -29,7 +29,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Chathura Manohara</span>
           <span>
-            3rd year undergraduate at University of Colombo Scool of Computing... <br></br>
+            3rd year undergraduate at University of Colombo School of Computing... <br></br>
             Frontend Developer with high level of experience in web designing
             and development, producting the Quality work
           </span>
