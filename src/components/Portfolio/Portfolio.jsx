@@ -5,6 +5,8 @@ import "swiper/css";
 import Cal from "../../img/Cal_mobile.jpeg";
 import Todolist from "../../img/todolist.jpg";
 import Chathura from "../../img/mysite.png";
+import LMS from "../../img/lms.png";
+import ALSS from "../../img/alss.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -30,7 +32,7 @@ const Portfolio = () => {
 
         <SwiperSlide>
           <img src={""} alt="" />
-          <p> <a href="https://sasnaka.org/#/" target="_blank" >Sasnaka Volunteer Platform</a><br/> React web application </p>
+          <p> <a href="https://sasnaka.org/#/" target="_blank" >Sasnaka Volunteer Platform</a><br/> React web application (3rd Year)</p>
         </SwiperSlide>
 
         <SwiperSlide>
@@ -49,13 +51,18 @@ const Portfolio = () => {
         </SwiperSlide>
 
         <SwiperSlide>
+          <img src={LMS} alt="" />
+          <p><a href="#" target="_blank" >Learning Management System</a> <br/> Web Application (Ongoing)</p>
+        </SwiperSlide>
+
+        <SwiperSlide>
           <img src={""} alt="" />
           <p><a href="https://tic-tac-toe-play.herokuapp.com/" target="_blank" >Play-TicTacToe</a> <br/> Game </p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={""} alt="" />
-          <p><a href="#" target="_blank" >Apartment Resource Management System</a> <br/> Web Application</p>
+          <img src={ALSS} alt="" />
+          <p><a href="#" target="_blank" >Apartment Resource Management System</a> <br/> Web Application (2nd Year)</p>
         </SwiperSlide>
 
         <SwiperSlide>
