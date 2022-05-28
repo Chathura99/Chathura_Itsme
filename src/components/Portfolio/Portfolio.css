@@ -39,6 +39,7 @@
 }
 p{
   color: var(--lightblue);
+  text-align: center;
 }
 a{
   color: rgb(28,140,227);
@@ -47,15 +48,9 @@ a:hover{
   color: rgb(12, 90, 150);
 }
 @media screen and (max-width: 480px)  {
-  .portfolio {
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      height: 70vh;
-    
-    
-  
+  .portfolio-slider {
+    margin-top: 3rem;
+    width: 350%;
+    margin-left: 0;
   }
 }
