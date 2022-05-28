@@ -35,14 +35,14 @@
 }
 
 .n-list > ul :hover {
-  color: var(--lightblue);
+  color: rgb(121, 121, 240);
   cursor: pointer;
 }
 
 .n-button {
   flex: 2;
 }
-
+/* hidden navbar */
 @media screen and (max-width: 480px) {
   .n-list {
     display: none;

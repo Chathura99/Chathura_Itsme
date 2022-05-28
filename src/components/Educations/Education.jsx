@@ -1,16 +1,17 @@
 import React from "react";
 import "./Education.css";
+//Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
+//images
 import profilePic1 from "../../img/primary.jfif";
 import profilePic2 from "../../img/Maliyadeva.png";
 import profilePic3 from "../../img/ucsc.png";
 
 const Education = () => {
-  const clients = [
+  const places = [
     {
       img: profilePic3,
       review:
@@ -35,7 +36,7 @@ const Education = () => {
   ];
 
   return (
-    <div className="t-wrapper" id="testimonial">
+    <div className="t-wrapper" id="edu">
       <div className="t-heading">
         <span>Education </span>
         <span> </span>
@@ -45,15 +46,16 @@ const Education = () => {
 
       </div>
       <Swiper
-        // install Swiper modules
+        // install Swiper modules dependancy
         modules={[Pagination]}
         slidesPerView={1}
+        //swipe dots
         pagination={{ clickable: true }}
       >
-        {clients.map((client, index) => {
+        {places.map((client, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="testimonial">
+              <div className="edu">
                 <img src={client.img} alt=""/>
                 <span>{client.review}</span>
               </div>
