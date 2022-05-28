@@ -64,7 +64,7 @@ const Services = () => {
         </motion.div>
         {/* 3rd */}
         <motion.div
-          initial={{ top: "19rem", left: "25rem" }}
+          initial={{ top: "19rem", left: "5rem" }}
           whileInView={{ left: "12rem" }}
           transition={transition}
         >
@@ -73,6 +73,20 @@ const Services = () => {
             heading={"Photography and Videography"}
             detail={
               "When words become unclear, I shall focus with photographs. B Day Parties, Functions"
+            }
+            color="rgba(252, 166, 31, 0.45)"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ top: "19rem", left: "45rem" }}
+          whileInView={{ left: "30rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={Design}
+            heading={"Tutor"}
+            detail={
+              "Mathematics Classes Grade 6 - 11 and Al Mathematics Stream"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
