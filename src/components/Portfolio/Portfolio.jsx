@@ -8,6 +8,8 @@ import Chathura from "../../img/mysite.png";
 import LMS from "../../img/lms.png";
 import ALSS from "../../img/alss.png";
 import TTT from "../../img/tictactoe.png"
+import EMP from "../../img/empmanagement.png"
+
 import { themeContext } from "../../Context";
 import Arrow from "@iconscout/react-unicons/icons/uil-arrow-circle-right";
 const Portfolio = () => {
@@ -47,7 +49,7 @@ const Portfolio = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={""} alt="" />
+          <img src={EMP} alt="" />
           <p><a href="https://manage-my-employees.herokuapp.com/employees" target="_blank" >Employee Data  <br/>Management System</a> <br/> Web Application</p><a href="https://github.com/Chathura99/React_springboot_employee_management" target="_blank"><Arrow/></a>
         </SwiperSlide>
 
