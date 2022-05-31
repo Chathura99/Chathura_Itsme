@@ -9,6 +9,7 @@ import LMS from "../../img/lms.png";
 import ALSS from "../../img/alss.png";
 import TTT from "../../img/tictactoe.png"
 import EMP from "../../img/empmanagement.png"
+import MobileTodo from "../../img/mobiletodo.png"
 
 import { themeContext } from "../../Context";
 import Arrow from "@iconscout/react-unicons/icons/uil-arrow-circle-right";
@@ -66,6 +67,11 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={ALSS} alt="" />
           <p><a href="#" target="_blank" >Apartment Resource Management System</a> <br/> Web Application (2nd Year)</p><a href="https://github.com/Roni-Boiz/Y2GP_ALSS" target="_blank"><Arrow/></a>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={MobileTodo} alt="" />
+          <p><a href="#" target="_blank" >Task Manager</a> <br/> Mobile Application</p><a href="https://github.com/Chathura99/ToDo-mobile-app" target="_blank"><Arrow/></a>
         </SwiperSlide>
 
         <SwiperSlide>
