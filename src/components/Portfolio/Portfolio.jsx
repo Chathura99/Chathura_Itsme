@@ -10,7 +10,7 @@ import ALSS from "../../img/alss.png";
 import TTT from "../../img/tictactoe.png"
 import EMP from "../../img/empmanagement.png"
 import MobileTodo from "../../img/mobiletodo.png"
-
+import Shop from "../../img/brandedshop.png"
 import { themeContext } from "../../Context";
 import Arrow from "@iconscout/react-unicons/icons/uil-arrow-circle-right";
 const Portfolio = () => {
@@ -30,7 +30,7 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={""} alt="" />
+          <img src={Shop} alt="" />
           <p><a href="#">The-branded-shop</a> <br/>E-commerce Web Application</p><a href="https://github.com/Chathura99/" target="_blank"><Arrow/></a>
         </SwiperSlide>
         
