@@ -31,7 +31,7 @@ const Portfolio = () => {
       >
         <SwiperSlide>
           <img src={Shop} alt="" />
-          <p><a href="#">The-branded-shop</a> <br/>E-commerce Web Application</p><a href="https://github.com/Chathura99/the-branded-shop" target="_blank"><Arrow/></a>
+          <p><a href="https://thebrandedshop.herokuapp.com/">The-branded-shop</a> <br/>E-commerce Web Application</p><a href="https://github.com/Chathura99/the-branded-shop" target="_blank"><Arrow/></a>
         </SwiperSlide>
         
         <SwiperSlide>
