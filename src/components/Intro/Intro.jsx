@@ -75,7 +75,7 @@ const Intro = () => {
           <FloatinDiv
             img={programmer}
             text1="BSc(Hons)"
-            text2="Software Engineering"
+            text2="Software Engineering(Undergratuate)"
           />
         </motion.div>
 
