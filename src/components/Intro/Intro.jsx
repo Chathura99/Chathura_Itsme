@@ -33,8 +33,6 @@ const Intro = () => {
           <span>
             3rd year undergraduate at University of Colombo School of
             Computing... <br></br>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
