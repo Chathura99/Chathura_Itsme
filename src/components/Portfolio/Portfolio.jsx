@@ -12,6 +12,7 @@ import EMP from "../../img/empmanagement.png"
 import MobileTodo from "../../img/mobiletodo.png"
 import Shop from "../../img/brandedshop.png"
 import Sasnaka from "../../img/sasnaka.png"
+import Cssd from "../../img/cssd.png"
 import { themeContext } from "../../Context";
 import Arrow from "@iconscout/react-unicons/icons/uil-arrow-circle-right";
 const Portfolio = () => {
@@ -46,6 +47,11 @@ const Portfolio = () => {
         </SwiperSlide>
 
         <SwiperSlide>
+          <img src={Cssd} alt="" />
+          <p><a href="#" target="_blank" >CSSD E commerce</a> <br/> web Application</p><a href="https://github.com/Thashmi-nil/cssd-ecommerce-app" target="_blank"><Arrow/></a>
+        </SwiperSlide>
+
+        <SwiperSlide>
           <img src={Cal} alt="" />
           <p><a href="#">Simple Calculator</a> <br/>React-native mobile app </p><a href="https://github.com/Chathura99/Simple_Calculator" target="_blank"><Arrow/></a>
         </SwiperSlide>
@@ -70,6 +76,8 @@ const Portfolio = () => {
           <p><a href="https://tic-tac-toe-play.herokuapp.com/" target="_blank" >Play-TicTacToe</a> <br/> Game </p><a href="https://github.com/Chathura99/Tic-Tac-Toe_Game" target="_blank"><Arrow/></a>
         </SwiperSlide>
 
+
+
         <SwiperSlide>
           <img src={MobileTodo} alt="" />
           <p><a href="#" target="_blank" >Task Manager</a> <br/> Mobile Application</p><a href="https://github.com/Chathura99/ToDo-mobile-app" target="_blank"><Arrow/></a>
@@ -82,7 +90,7 @@ const Portfolio = () => {
 
         <SwiperSlide>
           <img src={""} alt="" />
-          <p><a href="" target="_blank" >Unity Academy(Institute)</a> <br/> Web Application </p><a href="https://github.com/Chathura99/unity-academy-institute-management" target="_blank"><Arrow/></a>
+          <p><a href="" target="_blank" >Smart Academy</a> <br/> Web Application </p><a href="https://github.com/Chathura99/smart-academy" target="_blank"><Arrow/></a>
         </SwiperSlide>
 
         <SwiperSlide>
